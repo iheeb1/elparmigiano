@@ -1,0 +1,22 @@
+{
+  "name": "El Parmigiano — Restaurant Italien",
+  "short_name": "El Parmigiano",
+  "description": "Restaurant italien authentique. Pizza artisanale, Panuozzo, El Panino et El Vulcano.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a0a0a",
+  "theme_color": "#5c0c0e",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-light-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ]
+}

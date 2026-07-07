@@ -90,8 +90,76 @@ export function LandingPage() {
     tiltY.set(0)
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Restaurant',
+    name: 'El Parmigiano',
+    image: '/images/logo.png',
+    url: 'https://elparmigiano.fr',
+    telephone: '+33651475545',
+    email: 'restaurantelparmigiano@gmail.com',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '1 bis rue Guy Baudoin',
+      addressLocality: 'Melun',
+      postalCode: '77000',
+      addressCountry: 'FR',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 48.5442,
+      longitude: 2.6587,
+    },
+    servesCuisine: ['Italian', 'Pizza', 'Panuozzo'],
+    priceRange: '$$',
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Thursday'],
+        opens: '11:00',
+        closes: '14:30',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Thursday'],
+        opens: '17:30',
+        closes: '22:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Friday', 'Saturday'],
+        opens: '11:00',
+        closes: '14:30',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Friday', 'Saturday'],
+        opens: '17:30',
+        closes: '23:00',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: 'Sunday',
+        opens: '11:00',
+        closes: '14:30',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: 'Sunday',
+        opens: '17:30',
+        closes: '22:30',
+      },
+    ],
+    menu: '/menu',
+    acceptsReservations: 'false',
+  }
+
   return (
     <main className="relative bg-background overflow-hidden">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <ScrollProgress />
       <StickyMiniHeader />
 

@@ -24,7 +24,7 @@ const CONTACTS = [
 const HOURS = {
   icon: Clock,
   label: "Horaires",
-  lines: ["Lun - Sam: 10h - 22h", "Dimanche: Fermé"],
+  lines: ["Lun - Sam: 10h00 - 22h00", "Dimanche: Fermé"],
 }
 
 export function SiteFooter() {
