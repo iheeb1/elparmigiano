@@ -115,39 +115,9 @@ export function LandingPage() {
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Thursday'],
-        opens: '11:00',
-        closes: '14:30',
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Thursday'],
-        opens: '17:30',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+        opens: '10:00',
         closes: '22:00',
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Friday', 'Saturday'],
-        opens: '11:00',
-        closes: '14:30',
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Friday', 'Saturday'],
-        opens: '17:30',
-        closes: '23:00',
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: 'Sunday',
-        opens: '11:00',
-        closes: '14:30',
-      },
-      {
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: 'Sunday',
-        opens: '17:30',
-        closes: '22:30',
       },
     ],
     menu: '/menu',
@@ -604,10 +574,8 @@ export function LandingPage() {
 
           <div className="grid gap-4 sm:grid-cols-2 max-w-xl mx-auto mb-8">
             {[
-              { day: "Lundi - Jeudi", hours: "11h00 - 14h30 / 17h30 - 22h00" },
-              { day: "Vendredi - Samedi", hours: "11h00 - 14h30 / 17h30 - 23h00" },
-              { day: "Dimanche", hours: "11h00 - 14h30 / 17h30 - 22h30" },
-              { day: "Mercredi", hours: "Fermé" },
+              { day: "Lundi - Samedi", hours: "10h00 - 22h00" },
+              { day: "Dimanche", hours: "Fermé" },
             ].map((item, i) => (
               <motion.div
                 key={i}
