@@ -472,20 +472,20 @@ export function LandingPage() {
               {
                 title: "Pizzas Napolitaines",
                 desc: "Traditionnelles et authentiques, cuites au feu de bois selon la recette originale.",
-                price: "À partir de 10€",
+                price: "À partir de 10",
                 img: "/images/products/pizza-margherita.png",
               },
               {
                 title: "Panuozzo",
                 desc: "Sandwichs italiens levés et croustillants, garnis de saveurs méditerranéennes.",
-                price: "À partir de 7€",
+                price: "À partir de 7",
                 img: "/images/products/panuozzo-classico.png",
               },
               {
-                title: "El Panino",
-                desc: "Pains généreux remplis d'ingrédients frais et préparés selon vos envies.",
-                price: "À partir de 5,50€",
-                img: "/images/products/el-panino-hero.png",
+                title: "El Volcano",
+                desc: "L'incontournable de la maison, plié et doré.",
+                price: "À partir de 7",
+                img: "/images/products/volcano-poulet.png",
               },
             ].map((item, i) => (
               <motion.div

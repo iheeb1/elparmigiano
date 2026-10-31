@@ -8,7 +8,7 @@ import { SiteFooter } from "@/components/site-footer"
 export const metadata: Metadata = {
   title: "Nos spécialités — El Parmigiano",
   description:
-    "Découvrez en avant-première les spécialités d'El Parmigiano : Pizza, Panuozzo, El Panino et El Vulcano.",
+    "Découvrez en avant-première les spécialités d'El Parmigiano : Pizza, Panuozzo et El Vulcano.",
 }
 
 export default function MenuPage() {

@@ -31,94 +31,105 @@ const MENU_DATA: MenuCategory[] = [
     items: [
       {
         name: "Pizza Margherita",
-        price: "10€",
-        description:
-          "Sauce tomate San Marzano, mozzarella fior di latte, basilic frais, huile d'olive vierge extra.",
+        price: "10",
+        description: "Sauce tomate San Marzano, mozzarella fior di latte, basilic frais, huile d'olive vierge extra.",
         image: "/images/products/pizza-margherita.png",
       },
       {
         name: "Pizza Marinara",
-        price: "10€",
+        price: "10",
         description: "Sauce tomate, ail émincé, origan, olives, huile d'olive. (Sans fromage)",
         image: "/images/products/pizza-marinara.png",
       },
       {
-        name: "Pizza Capricciosa",
-        price: "12€",
-        description:
-          "Sauce tomate, mozzarella, jambon, champignons frais, cœurs d'artichauts, olives noires.",
+        name: "Pizza Reggina",
+        price: "12",
+        description: "Sauce tomate, mozzarella, jambon, champignons frais, olives noires.",
         image: "/images/products/pizza-capricciosa.png",
       },
       {
         name: "Pizza Al Tonno",
-        price: "12€",
+        price: "12",
         description: "Sauce tomate, mozzarella, thon, oignons rouges, olives noires.",
         image: "/images/products/pizza-al-tonno.png",
       },
       {
         name: "Pizza Napoli",
-        price: "12€",
+        price: "12",
         description: "Sauce tomate, mozzarella, filets d'anchois, câpres, olives noires, origan.",
         image: "/images/products/pizza-napoli.png",
       },
       {
         name: "Pizza Pollo",
-        price: "12€",
+        price: "12",
         description: "Sauce tomate, mozzarella, poulet mariné, poivron, origan, huile d'olive.",
         image: "/images/products/pizza-pollo.png",
       },
       {
         name: "Pizza Macinata",
-        price: "12€",
-        description:
-          "Sauce tomate, mozzarella, viande hachée, poivron, oignon rouge, origan, huile d'olive.",
+        price: "12",
+        description: "Sauce tomate, mozzarella, viande hachée, poivron, oignon rouge, origan, huile d'olive.",
         image: "/images/products/pizza-macinata.png",
       },
       {
         name: "Pizza Ortolana (Végétarienne)",
-        price: "12€",
-        description:
-          "Sauce tomate, mozzarella, aubergines, courgettes, poivrons, champignons frais, olives noires, basilic, huile d'olive.",
+        price: "12",
+        description: "Sauce tomate, mozzarella, aubergines, courgettes, poivrons, champignons frais, olives noires, basilic, huile d'olive.",
         image: "/images/products/pizza-ortolana.png",
       },
       {
         name: "Pizza Quattro Formaggi",
-        price: "12€",
-        description: "Sauce tomate, mozzarella, roquefort, gruyère, parmesan.",
+        price: "12",
+        description: "Sauce tomate, mozzarella fior di latte, gorgonzola, fromage di capra (chèvre) et Parmigiano Reggiano.",
         image: "/images/products/pizza-quattro-formaggi.png",
       },
       {
         name: "Pizza Pollo Bianca",
-        price: "14€",
+        price: "14",
         description: "Sauce blanche, mozzarella, poulet rôti, poivron, champignons, olives.",
         image: "/images/products/pizza-pollo-bianca.png",
       },
       {
         name: "Pizza Parmigiano",
-        price: "14€",
-        description:
-          "Crème à la truffe, mozzarella, champignons frais, copeaux de Parmigiano Reggiano, roquette, huile de truffe.",
+        price: "14",
+        description: "Crème à la truffe, mozzarella, champignons frais, copeaux de Parmigiano Reggiano, roquette, huile de truffe.",
         image: "/images/products/pizza-parmigiano.png",
       },
       {
         name: "Pizza Al Salmone",
-        price: "15€",
-        description:
-          "Sauce blanche, mozzarella, saumon fumé, parmesan, citron, poivre noir, huile d'olive.",
+        price: "15",
+        description: "Crème fraîche, mozzarella, saumon fumé, noix de muscade, zeste de citron et Parmigiano Reggiano.",
         image: "/images/products/pizza-al-salmone.png",
       },
       {
         name: "Pizza Bresaola",
-        price: "15€",
-        description:
-          "Sauce tomate, mozzarella. Après cuisson : bresaola, roquette fraîche, copeaux de Parmigiano Reggiano, filet d'huile d'olive.",
+        price: "15",
+        description: "Sauce tomate, mozzarella. Après cuisson : bresaola, roquette fraîche, copeaux de Parmigiano Reggiano, filet d'huile d'olive.",
         image: "/images/products/pizza-bresaola.png",
       },
       {
-        name: "Pizza Della Casa",
-        price: "15€",
-        description: "Disponible uniquement le week-end. Recette différente chaque week-end.",
-        image: "/images/products/pizza-della-casa.png",
+        name: "Pizza Chèvre-Miel",
+        price: "12",
+        description: "Crème fraîche, mozzarella, fromage de chèvre, miel.",
+        image: "/images/products/pizza-chevre-miel.png",
+      },
+      {
+        name: "Pizza Pepperoni",
+        price: "12",
+        description: "Sauce tomate, mozzarella, pepperoni.",
+        image: "/images/products/pizza-pepperoni.png",
+      },
+      {
+        name: "Pizza Al Pesto",
+        price: "15",
+        description: "Base pesto basilic, mozzarella, tomate cerise, pastrami, copeaux de Parmigiano Reggiano et basilic frais.",
+        image: "/images/products/pizza-al-pesto.png",
+      },
+      {
+        name: "Pizza à composer",
+        price: "15",
+        description: "Si vous hésitez entre deux pizzas, vous pouvez avoir une pizza 50/50 selon vos envies.",
+        image: "/images/products/pizza-a-composer.png",
       },
     ],
   },
@@ -131,27 +142,39 @@ const MENU_DATA: MenuCategory[] = [
     items: [
       {
         name: "Panuozzo Classico",
-        price: "7€",
-        description: "Mozzarella, jambon, roquette, huile d'olive.",
+        price: "7",
+        description: "Mozzarella, pesto basilic, jambon, roquette, huile d'olive.",
         image: "/images/products/panuozzo-classico.png",
       },
       {
         name: "Panuozzo Vegetariano",
-        price: "7€",
-        description: "Mozzarella, aubergines, courgettes, poivrons, champignons frais, roquette.",
+        price: "7",
+        description: "Mozzarella, pesto basilic, aubergines, courgettes, poivrons, champignons frais, roquette.",
         image: "/images/products/panuozzo-vegetariano.png",
       },
       {
         name: "Panuozzo Al Salmone",
-        price: "8€",
-        description: "Mozzarella, saumon fumé, tomate cerise, roquette.",
+        price: "8",
+        description: "Mozzarella, pesto basilic, saumon fumé, tomate cerise, roquette.",
         image: "/images/products/panuozzo-salmone.png",
       },
       {
         name: "Panuozzo Bresaola",
-        price: "9€",
-        description: "Mozzarella, bresaola, roquette, Parmigiano Reggiano, crème de balsamique.",
+        price: "9",
+        description: "Mozzarella, pesto basilic, bresaola, roquette, Parmigiano Reggiano, crème de balsamique.",
         image: "/images/products/panuozzo-bresaola.png",
+      },
+      {
+        name: "Panuozzo Mortadella",
+        price: "8",
+        description: "Mozzarella, pesto basilic, mortadella, roquette, huile d'olive.",
+        image: "/images/products/panuozzo-mortadella.png",
+      },
+      {
+        name: "Panuozzo Pastrami",
+        price: "9",
+        description: "Mozzarella, pesto basilic, pastrami, roquette, Parmigiano Reggiano, crème de balsamique.",
+        image: "/images/products/panuozzo-pastrami.png",
       },
     ],
   },
@@ -163,31 +186,27 @@ const MENU_DATA: MenuCategory[] = [
     banner: "/images/menu-volcano.png",
     items: [
       {
-        name: "El Volcano Escalope",
-        price: "7€",
-        description:
-          "Avant cuisson : escalope panée, mozzarella, oignons rouges. Après cuisson : salade, tomates cerises, sauce maison.",
+        name: "El Volcano Poulet Rôti",
+        price: "7",
+        description: "Avant cuisson : poulet rôti, mozzarella, oignons rouges. Après cuisson : salade, tomates cerises, sauce maison.",
         image: "/images/products/volcano-escalope.png",
       },
       {
-        name: "El Volcano Poulet",
-        price: "7€",
-        description:
-          "Avant cuisson : poulet grillé mariné, mozzarella, oignons rouges. Après cuisson : salade, tomates cerises, sauce maison.",
+        name: "El Volcano Poulet Mariné",
+        price: "7",
+        description: "Avant cuisson : poulet grillé mariné, mozzarella, oignons rouges. Après cuisson : salade, tomates cerises, sauce maison.",
         image: "/images/products/volcano-poulet.png",
       },
       {
         name: "El Volcano Thon",
-        price: "7€",
-        description:
-          "Avant cuisson : thon, mozzarella, oignons rouges, olives noires. Après cuisson : salade, tomates cerises, sauce maison.",
+        price: "7",
+        description: "Avant cuisson : thon, mozzarella, oignons rouges, olives noires. Après cuisson : salade, tomates cerises, sauce maison.",
         image: "/images/products/volcano-thon.png",
       },
       {
         name: "El Volcano Jambon",
-        price: "7€",
-        description:
-          "Avant cuisson : jambon de dinde fumé, mozzarella, champignons frais. Après cuisson : salade, tomates cerises, sauce maison.",
+        price: "7",
+        description: "Avant cuisson : jambon de dinde fumé, mozzarella, champignons frais. Après cuisson : salade, tomates cerises, sauce maison.",
         image: "/images/products/volcano-jambon.png",
       },
     ],
@@ -201,19 +220,19 @@ const MENU_DATA: MenuCategory[] = [
     items: [
       {
         name: "Boisson fraîche au choix (33 cl)",
-        price: "1,50€",
-        description: "",
+        price: "1,50",
+        description: "Coca-Cola, Coca Zero, Coca Cherry, Ice Tea, Sprite, Orangina, Oasis Tropicale, 7Up Mojito, Fanta, Schweppes Agrumes, Perrier.",
         image: "/images/products/drink-soda.png",
       },
       {
         name: "Bouteille d'eau (50 cl)",
-        price: "1,00€",
+        price: "1,00",
         description: "",
         image: "/images/products/drink-water.png",
       },
       {
         name: "Café",
-        price: "2,00€",
+        price: "2,00",
         description: "",
         image: "/images/products/drink-coffee.png",
       },
@@ -228,37 +247,55 @@ const MENU_DATA: MenuCategory[] = [
     items: [
       {
         name: "Tiramisu maison",
-        price: "4,50€",
+        price: "4,50",
         description: "",
         image: "/images/products/dessert-tiramisu.png",
       },
       {
-        name: "Cookie",
-        price: "3,50€",
-        description: "",
-        image: "/images/products/dessert-cookie.png",
-      },
-      {
         name: "Mini Pizza Nutella",
-        price: "5,50€",
+        price: "5,50",
         description: "",
         image: "/images/products/dessert-mini-pizza-nutella.png",
       },
       {
         name: "Mini Pizza Nutella & Pistache",
-        price: "6,50€",
+        price: "6,50",
         description: "",
         image: "/images/products/dessert-mini-pizza-nutella-pistache.png",
+      },
+      {
+        name: "Mini Pizza Nutella & Amandes",
+        price: "6,50",
+        description: "",
+        image: "/images/products/dessert-mini-pizza-nutella-amandes.png",
       },
     ],
   },
 ]
 
 const SUPPLEMENTS = [
-  { name: "Champignons", price: "+1,50€", image: "/images/products/supplement-champignons.png" },
-  { name: "Burrata", price: "+3,00€", image: "/images/products/supplement-burrata.png" },
-  { name: "Œuf", price: "+1,50€", image: "/images/products/supplement-oeuf.png" },
-  { name: "Mozzarella", price: "+1,50€", image: "/images/products/supplement-mozzarella.png" },
+  {
+    title: "Pizzas & Panuozzos",
+    items: [
+      { name: "Jambon de dinde", price: "2,00" },
+      { name: "Mortadella", price: "2,50" },
+      { name: "Pastrami", price: "2,50" },
+      { name: "Bresaola", price: "3,00" },
+      { name: "Stracciatella", price: "2,00" },
+      { name: "Burrata", price: "3,00" },
+      { name: "Mozzarella", price: "1,50" },
+      { name: "Légumes grillés au choix (champignon, poivron, courgette, aubergine)", price: "2,00" },
+      { name: "Crème à la truffe", price: "2,00" },
+    ],
+  },
+  {
+    title: "El Volcano",
+    items: [
+      { name: "Œuf", price: "1,50" },
+      { name: "Olive", price: "1,00" },
+      { name: "Fromage au choix (chèvre, roquefort, parmesan)", price: "1,50" },
+    ],
+  },
 ]
 
 const containerVariants = {
@@ -345,7 +382,7 @@ const NAV_ITEMS: NavItem[] = [
   { id: "pizzas", title: "Pizzas", icon: Flame },
   { id: "panuozzo", title: "Panuozzo", icon: Sandwich },
   { id: "volcano", title: "El Volcano", icon: Pizza },
-  { id: "panino", title: "El Panino", icon: UtensilsCrossed },
+  { id: "supplements", title: "Suppléments", icon: UtensilsCrossed },
   { id: "boissons", title: "Boissons", icon: CupSoda },
   { id: "desserts", title: "Desserts", icon: IceCreamCone },
 ]
@@ -454,7 +491,7 @@ export function FullMenu() {
         <CategorySection category={MENU_DATA[0]} />
         <CategorySection category={MENU_DATA[1]} />
         <CategorySection category={MENU_DATA[2]} />
-        <ElPanino />
+        <Supplements />
         <CategorySection category={MENU_DATA[3]} />
         <CategorySection category={MENU_DATA[4]} />
       </div>
@@ -512,9 +549,9 @@ function CategorySection({ category }: { category: MenuCategory }) {
   )
 }
 
-function ElPanino() {
+function Supplements() {
   return (
-    <section id="panino" className="scroll-mt-24">
+    <section id="supplements" className="scroll-mt-24">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -522,11 +559,6 @@ function ElPanino() {
         viewport={{ once: true, margin: "-80px" }}
         className="relative mb-10 overflow-hidden rounded-lg border border-primary/15 px-6 py-12 text-center sm:mb-14 sm:py-16"
       >
-        <div className="absolute inset-0 -z-10">
-          <Image src="/images/menu-panino.png" alt="" fill className="object-cover opacity-25" />
-          <div className="absolute inset-0 bg-gradient-to-b from-background/85 via-background/90 to-background" />
-        </div>
-
         <motion.div
           initial={{ scale: 0.6, opacity: 0, rotate: -8 }}
           whileInView={{ scale: 1, opacity: 1, rotate: 0 }}
@@ -536,95 +568,34 @@ function ElPanino() {
         >
           <UtensilsCrossed className="size-6 text-primary" />
         </motion.div>
-        <h2 className="font-serif text-3xl font-bold text-foreground sm:text-5xl">El Panino</h2>
-        <p className="mt-3 text-sm uppercase tracking-[0.25em] text-primary/80 sm:text-base">
-          Le classique revisité, à composer soi-même
-        </p>
+        <h2 className="font-serif text-3xl font-bold text-foreground sm:text-5xl">Les Suppléments</h2>
       </motion.div>
 
-      <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2 md:gap-12">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          whileHover={{ scale: 1.02 }}
-          className="relative h-72 w-full overflow-hidden rounded-lg border border-primary/15 sm:h-96"
-        >
-          <Image
-            src="/images/products/el-panino-hero.png"
-            alt="El Panino"
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-background/50 via-transparent to-transparent" />
-          <span className="absolute right-4 top-4 rounded-full bg-background/80 px-4 py-1.5 font-serif text-lg italic text-primary shadow-sm backdrop-blur-sm">
-            5,50€
-          </span>
-        </motion.div>
-
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-50px" }}
-          className="space-y-6"
-        >
-          <motion.div variants={cardVariants}>
-            <h3 className="mb-2 font-serif text-xl text-primary">Choix</h3>
-            <ul className="space-y-1.5 text-muted-foreground">
-              <li>• Thon (œuf en option)</li>
-              <li>• Jambon de dinde fumé</li>
-              <li>• Poulet pané</li>
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, margin: "-50px" }}
+        className="grid grid-cols-1 gap-6 md:grid-cols-2"
+      >
+        {SUPPLEMENTS.map((group) => (
+          <motion.div
+            key={group.title}
+            variants={cardVariants}
+            className="rounded-lg border border-primary/15 bg-card/40 p-6 backdrop-blur-sm sm:p-8"
+          >
+            <h3 className="mb-5 font-serif text-xl text-primary sm:text-2xl">{group.title}</h3>
+            <ul className="space-y-3">
+              {group.items.map((sup) => (
+                <li key={sup.name} className="flex items-baseline gap-3 text-sm sm:text-base">
+                  <span className="text-foreground">{sup.name}</span>
+                  <span className="flex-1 border-b border-dotted border-primary/30" />
+                  <span className="font-serif italic text-primary">{sup.price}</span>
+                </li>
+              ))}
             </ul>
           </motion.div>
-          <motion.p variants={cardVariants} className="text-sm italic leading-relaxed text-muted-foreground">
-            Tous les panino sont préparés avec des crudités au choix (salade, tomate, oignon) et des
-            sauces au choix (mayonnaise, ketchup, moutarde, harissa, algérienne, samouraï, sauce
-            maison).
-          </motion.p>
-        </motion.div>
-      </div>
-
-      {/* Supplements */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: true, margin: "-50px" }}
-        className="mt-14 sm:mt-20"
-      >
-        <h3 className="mb-8 text-center font-serif text-2xl text-primary sm:text-3xl">
-          Les Suppléments
-        </h3>
-        <motion.div
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, margin: "-50px" }}
-          className="mx-auto grid max-w-2xl grid-cols-2 gap-6 sm:grid-cols-4"
-        >
-          {SUPPLEMENTS.map((sup) => (
-            <motion.div
-              key={sup.name}
-              variants={cardVariants}
-              whileHover={{ y: -4 }}
-              className="group flex flex-col items-center text-center"
-            >
-              <motion.div
-                whileHover={{ scale: 1.08 }}
-                transition={{ duration: 0.3 }}
-                className="relative mb-3 size-24 overflow-hidden rounded-full border-2 border-primary/30 transition-colors group-hover:border-primary sm:size-28"
-              >
-                <Image src={sup.image} alt={sup.name} fill className="object-cover" />
-              </motion.div>
-              <p className="font-serif text-sm font-semibold text-foreground sm:text-base">
-                {sup.name}
-              </p>
-              <p className="text-xs text-primary sm:text-sm">{sup.price}</p>
-            </motion.div>
-          ))}
-        </motion.div>
+        ))}
       </motion.div>
     </section>
   )

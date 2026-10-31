@@ -15,10 +15,10 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'El Parmigiano — Restaurant Italien | Pizza, Panuozzo, El Panino',
+  title: 'El Parmigiano — Restaurant Italien | Pizza, Panuozzo, El Volcano',
   description:
-    "El Parmigiano — restaurant italien authentique. Pizza artisanale, Panuozzo, El Panino et El Vulcano préparés avec des ingrédients frais et traditionnels. Ouverture prochaine.",
-  keywords: ['restaurant italien', 'pizza', 'panuozzo', 'el panino', 'el vulcano', 'cuisine italienne', 'parmesan', 'el parmigiano'],
+    "El Parmigiano — restaurant italien authentique. Pizza artisanale, Panuozzo et El Vulcano préparés avec des ingrédients frais et traditionnels. Ouverture prochaine.",
+  keywords: ['restaurant italien', 'pizza', 'panuozzo', 'el vulcano', 'cuisine italienne', 'parmesan', 'el parmigiano'],
   authors: [{ name: 'El Parmigiano' }],
   creator: 'El Parmigiano',
   publisher: 'El Parmigiano',
@@ -28,9 +28,9 @@ export const metadata: Metadata = {
     locale: 'fr_FR',
     url: '/',
     siteName: 'El Parmigiano',
-    title: 'El Parmigiano — Restaurant Italien | Pizza, Panuozzo, El Panino',
+    title: 'El Parmigiano — Restaurant Italien | Pizza, Panuozzo, El Volcano',
     description:
-      "El Parmigiano — restaurant italien authentique. Pizza artisanale, Panuozzo, El Panino et El Vulcano préparés avec des ingrédients frais et traditionnels.",
+      "El Parmigiano — restaurant italien authentique. Pizza artisanale, Panuozzo et El Vulcano préparés avec des ingrédients frais et traditionnels.",
     images: [
       {
         url: '/images/logo.png',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'El Parmigiano — Restaurant Italien',
     description:
-      "Pizza artisanale, Panuozzo, El Panino et El Vulcano — la véritable cuisine italienne.",
+      "Pizza artisanale, Panuozzo et El Vulcano — la véritable cuisine italienne.",
     images: ['/images/logo.png'],
   },
   robots: {
