@@ -60,27 +60,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      {
-        url: '/images/logo.png',
-        type: 'image/png',
-      },
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/icon-32x32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/icon-192x192.png', type: 'image/png', sizes: '192x192' },
     ],
-    apple: '/images/logo.png',
-    other: [
-      {
-        rel: 'apple-touch-icon-precomposed',
-        url: '/images/logo.png',
-      },
-    ],
+    apple: { url: '/apple-icon.png', sizes: '180x180' },
   },
+  manifest: '/manifest.json',
 }
 
 export const viewport: Viewport = {
